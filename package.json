@@ -10,13 +10,18 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.test.req.save.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.test.req.save.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.test.req.save/issues"
+    "url": "https://github.com/agraddy/agraddy.test.req.save/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.2.0",
+    "agraddy.util.bottle": "^0.2.0",
+    "json-stringify-safe": "^5.0.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.6"
   }
 }
